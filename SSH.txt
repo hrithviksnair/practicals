@@ -1,0 +1,59 @@
+Generate SSH Key
+
+hrithviksnair@hrithviksnair-XPS-L501X:~$ ssh-keygen -t rsa -C "hrithvikchirapat@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/hrithviksnair/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/hrithviksnair/.ssh/id_rsa.
+Your public key has been saved in /home/hrithviksnair/.ssh/id_rsa.pub.
+The key fingerprint is:
+f0:ec:53:0b:66:f5:c3:ee:83:fc:d5:69:69:b0:11:2c hrithvikchirapat@gmail.com
+The key's randomart image is:
++--[ RSA 2048]----+
+|                 |
+|            .    |
+|      .   .E o   |
+|       + . o. .  |
+|        S . +o   |
+|       + o o .+.o|
+|        o......=.|
+|         .o...o  |
+|           .o.   |
++-----------------+
+hrithviksnair@hrithviksnair-XPS-L501X:~$ 
+hrithviksnair@hrithviksnair-XPS-L501X:~/.ssh$ cat id_rsa
+-----BEGIN RSA PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+DEK-Info: AES-128-CBC,F0DEDB6B6DFECB6800824B3584E3B3AD
+
+vajYJGSigvndOGOLUXJdDSmuljHSG8zbQnlZyZH3l0uFIF8VMOVbIaCMTKJOLGyQ
+cgfTMQP0lVEsi6qLN9alKkGVTvN++V80Ff5KRih0Psrf7rxe4feChHlYGnU8k3/9
+P/Y+KjRtgG63Hjshth6fdXr3G3sgjp7afs9YrsofM3Jhygov7zxSrdqkgBDzbyP1
+Y7Bm2+GvLtz5vNSGemCNe8Ia7kE4Tx/l2RODF5kF6rgfzgvY+/C+VI/z4dtS3gOO
+9QCMAywmA4Mxw5MTUHEt+cGV85jZDU51KAWAzUIIicy6WSpR+BJUycTAQNtOXUHV
+TzpHJNmsBJb0fSpDKo4DH/xD07pdUdMatdlb++IdATUPPjpEmYvfSNc6qfTqNSwL
+A2LxY0kjZ5UpzIPKgH+xWExQFK388BljbamrvLlc4bFtykejfnXQC7mgqsybcDbl
+nQ/U94eC+yK9B1IseXkinvlczPb5UODHw8GBf8RGof+eBkbzrNW4Vbxkng6z91uH
+IdimPnkG8erLaGrvYdt9spVXcihyvIeCqhRbuSQURhwD/gPM3Z6XHPQkPU7NF4GI
+rDVg3yCMBBQ/otYdYExlW7aR+m/wY31QmnFTOmco7ikYGsuv2NnPOZriNNzjAUtU
+zAmNdwHAIH4zkw3JWfBIjnO7QkoSFESrFIfzkAvi2i9RosJ/kEA3nSS9s9poNj2y
+6qQsK+bkNTOw28b/ZsGUvmmwlluMz/ujfeMbmWb/xks7y3f027Zf6k0hR1kaHG2t
+99aCVaP+WZ99hRpdmylh6MtEd/ZYB/saxNAnh/fpTPNCWBZPF6NGtIjEYDDQ4Ax1
+9a+MTR6MkX1Kj6hceeD3u4GrXrQzvIfkkI8XDWxycoD4QajqIEPKjrO6/jqc7QJa
+n+FMmv2apI0c1OxkGAwjEKLiip7T3Fb6mYUvbb9M6z4u7JxA/Fci0AhQKBguTqxQ
+4U1+UjPY1+rby31Y0Z74U8E8iPtDFB43TgSX2Xja2Q/E3NLMUDSIs3VrLlWSSHiu
++Ul+h4jTGH8fgxCQHN9kIOSvQYdfmXk3IiGlIrQlIUt7H0ie28MAA1ix5Pi0YRvG
+UXzUeGXCTlvtDbK3WaTDvMuTjTQhynvTpZz5H7LdMw560tK4gyj7mox802lR3kU3
+fpH8eKvbseESAQ95azx7BowXmpibnRDI/mby5xYh8w3IhhU1G048XkH01xA+zE0u
+eTV88JP4qZNhpAqVP57ClilvrzR+0LVypOn7JTQdcE58PMd3q/LqlL0hi91/z1ha
+RoJQcysMkNe7+EpAFtfo4+pAL/gODfw+XIMyASEUmrN/+/q8jcH24v3QGx0fgwNe
+GNyS0EiNpsmPLEsjt3/wCatvLQdy/5JIwrxW4CoM0g4eDlXcQ7VdGTU6KNbVOW8W
+01FvKuPVDXzigsZ4lCmi4JPvzcdyk5nWfEl7MRFA33CVUmYuTetJRVY7xuap0hi/
+LDyIAkPwt0WHIkVxeuBjJG7p7IrR2y4aI9WU2gLbC6CC11bKsEYjAHbR3AvGsEOY
+EaW/yyPzF25zO17nrjnzQnTOhZY8MUxr/wkeT3sfmDVXMVihULVUNDpFTqY8n/6T
+-----END RSA PRIVATE KEY-----
+hrithviksnair@hrithviksnair-XPS-L501X:~/.ssh$ cat id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC4B+2IV6cwbGwCCvjObbLL0dTSw2TA10CXdILaVSnvuZJz17UH8l8yy7xZM3eFm29uHx73UfllySHOqj3bTpDDaVEeo8fE1KuWgq8RNaEQC83YqcZd4THVXPClJT1f4ideqIWlR5rU8IOTm10qym2Wh99SV4zFXKojB9dSjU9230vaxNydNCD0Wsg27HT0NMpZFDmp8LI+5CvWA9qIfb3g7ElK/c+T8esf+wHb+t2Uz4RwKHi//qjgtukKkSalVad5S8dP5drzy+mAiI5RfEdgXM4PnNKNAICeqAdaRKhodHKP8BLcML4REEhiN3yK0Foz0gq62LgKnrRHevhn8f4J hrithvikchirapat@gmail.com
+
+
