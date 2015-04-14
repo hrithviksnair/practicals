@@ -1,6 +1,6 @@
-#Playing aroung with admin rights!
+#Playing around with admin rights!
 
 hrithviksnair@hrithviksnair-XPS-L501X:~$ sudo groupadd desktopusers -g 1010
 hrithviksnair@hrithviksnair-XPS-L501X:~$ sudo usermod -a -G desktopusers hrithviksnair
 [sudo] password for hrithviksnair: 
-hrithviksnair@hrithviksnair-XPS-L501X:~$ sudo usermod -g desktopusers hrith
+hrithviksnair@hrithviksnair-XPS-L501X:~$ sudo usermod -g desktopusers hrithviksnair
